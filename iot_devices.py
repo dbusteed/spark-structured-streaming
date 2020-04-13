@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
 # imports
-from kafka import KafkaProducer
-import numpy as np
+from kafka import KafkaProducer # pip install kafka-python
+import numpy as np              # pip install numpy
 from sys import argv, exit
 from time import time, sleep
 
